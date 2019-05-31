@@ -1,0 +1,5 @@
+  "scripts": {
+//{[{
+    "start": "concurrently \"vue-cli-service serve\" \"nodemon server/server.js\"",
+//}]}
+  },

@@ -1,0 +1,30 @@
+﻿{
+    "author": "Microsoft Community",
+    "classifications": [
+      "Universal"
+    ],
+    "name": "Launch.ReactNode.AddScript",
+  "tags": {
+    "language": "Any",
+    "type": "item",
+    "wts.type": "composition",
+    "wts.platform": "Web",
+    "wts.compositionOrder": "0",
+    "wts.version": "1.0.0",
+    "wts.compositionFilter": "$frontendframework == ReactJS & $backendframework == NodeJS & identity == wts.Proj.ReactDefault"
+  },
+    "sourceName": "wts.ItemName",
+    "preferNameDirectory": true,
+    "PrimaryOutputs": [
+    ],
+    "symbols": {
+      "wts.rootNamespace": {
+        "type": "parameter",
+        "replaces": "Param_RootNamespace"
+      },
+      "wts.itemNamespace": {
+        "type": "parameter",
+        "replaces": "Param_ItemNamespace"
+      }
+    }
+  }

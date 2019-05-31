@@ -1,0 +1,5 @@
+  "scripts": {
+//{[{
+    "start": "concurrently \"ng serve --port=3000 --o --proxy-config proxy.config.json\" \"nodemon server/server.js\"",
+//}]}
+  },
